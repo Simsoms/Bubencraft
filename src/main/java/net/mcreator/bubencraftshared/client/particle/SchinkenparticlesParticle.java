@@ -1,5 +1,5 @@
 
-package net.mcreator.bubencraft.client.particle;
+package net.mcreator.bubencraftshared.client.particle;
 
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;

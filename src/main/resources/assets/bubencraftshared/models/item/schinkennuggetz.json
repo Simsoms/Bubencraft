@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bubencraftshared:items/schinken_nuggetz_klein"
+  }
+}

@@ -48,7 +48,9 @@
       "item.test.schinkennuggetz": "Schinkennuggetz",
       "item.test.schinkennugget": "Schinkennugget",
       "item.bubencraft.schinkennugget": "Schinkennugget",
-      "item.bubencraft.schinkennuggetz": "Schinkennuggetz"
+      "item.bubencraft.schinkennuggetz": "Schinkennuggetz",
+      "item.bubencraftshared.schinkennugget": "Schinkennugget",
+      "item.bubencraftshared.schinkennuggetz": "Schinkennuggetz"
     }
   },
   "foldersRoot": {
@@ -56,8 +58,8 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "bubencraft",
-    "modName": "Bubencraft Mod",
+    "modid": "bubencraftshared",
+    "modName": "Bubencraft Mod Shared",
     "version": "1.0.0",
     "author": "Simon, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -70,7 +72,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.bubencraft",
+    "modElementsPackage": "net.mcreator.bubencraftshared",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200120510

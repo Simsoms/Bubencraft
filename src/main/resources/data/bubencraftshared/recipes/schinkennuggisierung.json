@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "bubencraft:schinkennuggetz"
+      "item": "bubencraftshared:schinkennuggetz"
     }
   ],
   "result": {
-    "item": "bubencraft:schinkennugget",
+    "item": "bubencraftshared:schinkennugget",
     "count": 9
   }
 }

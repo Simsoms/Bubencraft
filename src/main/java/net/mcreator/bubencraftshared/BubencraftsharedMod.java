@@ -11,7 +11,7 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.mcreator.bubencraft;
+package net.mcreator.bubencraftshared;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -26,29 +26,29 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.bubencraft.init.BubencraftModParticleTypes;
-import net.mcreator.bubencraft.init.BubencraftModItems;
+import net.mcreator.bubencraftshared.init.BubencraftsharedModParticleTypes;
+import net.mcreator.bubencraftshared.init.BubencraftsharedModItems;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
 
-@Mod("bubencraft")
-public class BubencraftMod {
-	public static final Logger LOGGER = LogManager.getLogger(BubencraftMod.class);
-	public static final String MODID = "bubencraft";
+@Mod("bubencraftshared")
+public class BubencraftsharedMod {
+	public static final Logger LOGGER = LogManager.getLogger(BubencraftsharedMod.class);
+	public static final String MODID = "bubencraftshared";
 	private static final String PROTOCOL_VERSION = "1";
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION,
 			PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	private static int messageID = 0;
 
-	public BubencraftMod() {
+	public BubencraftsharedMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		BubencraftModItems.REGISTRY.register(bus);
+		BubencraftsharedModItems.REGISTRY.register(bus);
 
-		BubencraftModParticleTypes.REGISTRY.register(bus);
+		BubencraftsharedModParticleTypes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

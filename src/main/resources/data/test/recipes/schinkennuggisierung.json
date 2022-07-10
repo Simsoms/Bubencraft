@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "test:schinkennuggetz"
+    }
+  ],
+  "result": {
+    "item": "test:schinkennugget",
+    "count": 9
+  }
+}

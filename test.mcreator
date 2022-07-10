@@ -1,0 +1,74 @@
+{
+  "mod_elements": [
+    {
+      "name": "Schinkennuggetz",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schinkennuggetz"
+    },
+    {
+      "name": "Schinkenparticles",
+      "type": "particle",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schinkenparticles"
+    },
+    {
+      "name": "Schinkennugget",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schinkennugget"
+    },
+    {
+      "name": "Schinkennug",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schinkennug"
+    },
+    {
+      "name": "Schinkennuggisierung",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schinkennuggisierung"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.test.schinkennuggetz": "Schinkennuggetz",
+      "item.test.schinkennugget": "Schinkennugget"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "test",
+    "modName": "test",
+    "version": "1.0.0",
+    "author": "Simon, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.test",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

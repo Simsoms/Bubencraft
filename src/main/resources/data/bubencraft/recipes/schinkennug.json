@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bubencraft:schinkennugget"
+    },
+    "1": {
+      "item": "bubencraft:schinkennugget"
+    },
+    "2": {
+      "item": "bubencraft:schinkennugget"
+    },
+    "3": {
+      "item": "bubencraft:schinkennugget"
+    },
+    "4": {
+      "item": "bubencraft:schinkennugget"
+    },
+    "5": {
+      "item": "bubencraft:schinkennugget"
+    },
+    "6": {
+      "item": "bubencraft:schinkennugget"
+    },
+    "7": {
+      "item": "bubencraft:schinkennugget"
+    },
+    "8": {
+      "item": "bubencraft:schinkennugget"
+    }
+  },
+  "result": {
+    "item": "bubencraft:schinkennuggetz",
+    "count": 1
+  }
+}

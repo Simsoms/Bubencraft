@@ -11,7 +11,7 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.mcreator.test;
+package net.mcreator.bubencraft;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -26,29 +26,29 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.test.init.TestModParticleTypes;
-import net.mcreator.test.init.TestModItems;
+import net.mcreator.bubencraft.init.BubencraftModParticleTypes;
+import net.mcreator.bubencraft.init.BubencraftModItems;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
 
-@Mod("test")
-public class TestMod {
-	public static final Logger LOGGER = LogManager.getLogger(TestMod.class);
-	public static final String MODID = "test";
+@Mod("bubencraft")
+public class BubencraftMod {
+	public static final Logger LOGGER = LogManager.getLogger(BubencraftMod.class);
+	public static final String MODID = "bubencraft";
 	private static final String PROTOCOL_VERSION = "1";
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION,
 			PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	private static int messageID = 0;
 
-	public TestMod() {
+	public BubencraftMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		TestModItems.REGISTRY.register(bus);
+		BubencraftModItems.REGISTRY.register(bus);
 
-		TestModParticleTypes.REGISTRY.register(bus);
+		BubencraftModParticleTypes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

@@ -3,14 +3,14 @@ loaderVersion="[40,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="test"
+modId="bubencraft"
 version="1.0.0"
-displayName="test"
+displayName="Bubencraft Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="Simon, MCreator"
 
-[[dependencies.test]]
+[[dependencies.bubencraft]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2]"
